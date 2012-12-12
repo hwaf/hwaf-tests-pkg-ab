@@ -18,6 +18,7 @@ def build(ctx):
         includes=["inc"],
         export_includes=["inc"],
         use="ROOT pkg-aa",
+        install_path="${INSTALL_AREA}/lib",
         )
     def subst(s):
         import waflib.Utils
