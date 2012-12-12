@@ -7,7 +7,6 @@ def pkg_deps(ctx):
     return
 
 def configure(ctx):
-    ctx.find_root()
     return
 
 def build(ctx):
