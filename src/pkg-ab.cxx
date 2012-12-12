@@ -5,7 +5,7 @@
 
 using namespace pkg_ab;
 
-void test_th1d()
+void test_h1d()
 {
   TH1D *h = new TH1D("h1-ab", "h1-ab", 100, 0., 100.);
   std::cout << "h1-ab: " << h->GetEntries() << "\n";
