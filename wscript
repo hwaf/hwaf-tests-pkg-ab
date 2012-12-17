@@ -12,7 +12,7 @@ def configure(ctx):
 def build(ctx):
 
     ctx.build_linklib(
-        name="pkg-aa",
+        name="pkg-ab",
         source="src/pkg-ab.cxx",
         use="ROOT pkg-aa",
         )
