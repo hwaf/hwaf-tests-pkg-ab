@@ -1,6 +1,7 @@
 #include <iostream>
 #include "TH1D.h"
 
+#include "pkg-aa/h1d.hh" // just to test...
 #include "pkg-ab/h1d.hh"
 
 namespace pkg_ab {
